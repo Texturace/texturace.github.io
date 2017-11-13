@@ -1,0 +1,43 @@
+html {color:#00ffff}
+h1 {font-size:60pt;}
+h2 {font-size:40pt;border-bottom-style: groove;}
+h3 {font-size:32pt;border-bottom-style: groove;}
+h4 {font-size:26pt;border-bottom-style: groove;}
+.jungler {color:#FF9900;font-size:14pt}
+.UGAred {color:#f20909;font-size:14pt}
+.UGApremier {color:#ffe100;font-size:14pt}
+body {background-color:#8f8f8f; color:00ffff;}
+a  {color:#00ffff;}
+TD {padding-top:5px;padding-left:10px;}
+li {font-size:20pt;}
+p  {font-size:16pt;}
+marquee {width:80%;}
+acronym {color:#00ffff;}
+.imgLeft {float:left}
+.imgRight
+table {border=0;}
+
+/* Marquee attempt, let's go */
+
+.marquee {
+		width: 450px;
+		margin: 0 auto;
+		white-space: nowrap;
+		overflow:hidden;
+		box-sizing:border-box;
+}
+
+.marquee span {
+	display: inline-block;
+	text-indent: 0;
+	animation: marquee 6s linear infinite;
+}
+
+.marquee span:hover {
+	animation-play-state:paused
+}
+
+@keyframes marquee {
+	0% {transform: translate(-100%, 0);)}
+	100% {transform: translate(100%, 0)};
+}
